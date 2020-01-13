@@ -3,7 +3,8 @@
  * Usage: dijkstra O(V^2) 
  * Source: https://github.com/dragonslayerx 
  */
-
+//This algorithm performs n iterations.
+//On each iteration it selects an unmarked vertex v with the lowest value d[v], marks it and checks all the edges (v,to) attempting to improve the value d[to].
 const int MAX = 1005
 const int INF = 1e9
 	
